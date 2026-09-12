@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Buffer Publish Replica | Windows Social Publishing</title>
+  <meta name="description" content="Official website for Buffer Publish Replica, a Windows desktop application for preparing, scheduling, and publishing social media content through official APIs.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23164c3a'/%3E%3Cpath d='M17 17h20c9 0 14 5 14 12s-5 12-14 12H27v8H17V17zm10 9v7h9c3 0 5-1 5-3.5S39 26 36 26h-9z' fill='%23d7ed86'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="brand" href="./"><span class="mark">B</span><span>Buffer Publish Replica</span></a>
+      <div class="nav-links"><a href="#about">About</a><a href="#features">Features</a><a href="#tiktok">TikTok</a><a href="privacy/">Privacy</a><a href="terms/">Terms</a></div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero shell">
+      <div>
+        <p class="eyebrow">Windows desktop application</p>
+        <h1>Publish with control.</h1>
+        <p class="lede">Buffer Publish Replica helps users connect their own authorized social media accounts, prepare content, schedule posts, and publish videos through official platform APIs.</p>
+      </div>
+      <aside class="status-card" aria-label="Application approach">
+        <strong>User-directed publishing</strong>
+        <p>Account access begins only after the user completes the platform's OAuth authorization flow. Connections can be disconnected or revoked.</p>
+      </aside>
+    </section>
+
+    <section class="band" id="about">
+      <div class="shell">
+        <div class="section-head"><div><p class="kicker">About</p><h2>A focused desktop workflow</h2></div><p>The application brings content preparation, scheduling, account connections, and publishing into a Windows desktop experience. Users remain responsible for their accounts, authorization choices, and submitted content.</p></div>
+        <div class="grid" id="features">
+          <article class="card"><h3>Connect</h3><p>Authorize supported social platforms through their official OAuth screens. The app never asks users to disclose platform passwords.</p></article>
+          <article class="card"><h3>Prepare and schedule</h3><p>Organize captions and media, review publishing details, and schedule content from the desktop application.</p></article>
+          <article class="card"><h3>Publish through official APIs</h3><p>Send approved content to connected accounts using the capabilities and limits provided by each platform.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="band dark" id="tiktok">
+      <div class="shell">
+        <div class="section-head"><div><p class="kicker">TikTok integration</p><h2>Explicit authorization, limited scopes</h2></div><p>TikTok access is requested only when a user chooses to connect TikTok. TikTok displays the requested permissions and the user may allow or cancel authorization.</p></div>
+        <div class="scope"><code>user.info.basic</code><p>Used to identify and display the connected TikTok account inside the application.</p></div>
+        <div class="scope"><code>video.upload</code><p>Used when the user chooses to upload content as a draft for further editing and posting on TikTok.</p></div>
+        <div class="scope"><code>video.publish</code><p>Used when the user expressly chooses to publish eligible content to the authorized TikTok account.</p></div>
+      </div>
+    </section>
+
+    <section class="band" id="policies">
+      <div class="shell">
+        <div class="section-head"><div><p class="kicker">Policies</p><h2>Clear rules for account data</h2></div><p>Read how local credentials, account information, user content, disconnect actions, and third-party platform services are handled.</p></div>
+        <div class="policy-links">
+          <a class="policy-link" href="privacy/"><h3>Privacy Policy</h3><span>OAuth data, encrypted local storage, retention, and deletion.</span></a>
+          <a class="policy-link" href="terms/"><h3>Terms of Service</h3><span>Permitted use, content responsibility, platform rules, and availability.</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="support shell" id="support">
+      <p class="kicker">Contact / Support</p>
+      <h2>Connection and data support</h2>
+      <p>Users can remove a connected account and its locally stored connection data through the application's Disconnect action. Platform authorization can also be revoked from the relevant TikTok or YouTube account settings. Additional support is provided through the distribution channel from which the Windows application was obtained.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="shell"><span>Buffer Publish Replica</span><span><a href="privacy/">Privacy</a> &nbsp; <a href="terms/">Terms</a></span></div></footer>
+</body>
+</html>
